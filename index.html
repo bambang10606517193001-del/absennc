@@ -339,7 +339,7 @@
                     </div>
 
                     <div class="grid grid-cols-1 sm:grid-cols-4 gap-3 pt-2 border-t border-slate-100 no-print">
-                        <select id="filter-journal-madrasah" onchange="renderJournalRecap()" class="text-xs font-semibold border border-slate-300 rounded-xl px-3 py-2 bg-white">
+                        <select id="filter-journal-madrasah" onchange="populateJournalClassFilter(); renderJournalRecap();" class="text-xs font-semibold border border-slate-300 rounded-xl px-3 py-2 bg-white">
                             <option value="ALL">Semua Unit (MTs & MA)</option>
                             <option value="MTs">Unit MTs</option>
                             <option value="MA">Unit MA</option>
